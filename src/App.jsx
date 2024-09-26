@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="React JS Blog" />
+      <Header title="KJ Blog" />
           <Nav />
           <Routes>
             <Route path="/" element={<Home isLoading = {isLoading}
