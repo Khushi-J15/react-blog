@@ -1,11 +1,12 @@
 import './About.css';
+import kjImage from './kj2.jpeg';
 
 const About = () => {
   return (
     <main className="About about-container">
       <h2 className="about-heading">Khushi Jain</h2>
       <img 
-        src={`${import.meta.env.BASE_URL}kj2.jpeg`}
+        src={kjImage}
         alt="Khushi Jain"
         className="about-image"
       />
