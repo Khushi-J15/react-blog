@@ -1,0 +1,42 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .about-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-image {
+    background-color: aqua;
+    width: 180px;
+    height: 180px;
+    border-radius: 30%;
+    object-fit:contain;
+    margin: 1rem 0;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .about-list {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 1.5rem;
+    padding: 0;
+    max-width: 500px;
+  }
+  
+  .about-list li::before {
+    content: "🖋️";
+  }
+  

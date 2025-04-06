@@ -1,11 +1,26 @@
+import './About.css';
 
 const About = () => {
   return (
-    <main className="About">
-      <h2>About</h2>
-      <p style={{ marginTop : "1rem" }}>This blog app is a mini React project</p>
-    </main>
-  )
-}
+    <main className="About about-container">
+      <h2 className="about-heading">Khushi Jain</h2>
+      <img 
+        src="kj2.jpeg"
+        alt="Khushi Jain"
+        className="about-image"
+      />
+      <p className="about-text">
+        I'm a passionate developer who believes in the power of words and the magic of clean code. <br /><br />
+         Whether you're here to read engaging posts or explore the inner workings of a dynamic web app, you're in the right place.
+      </p>
 
-export default About
+      <ul className="about-list">
+        <li>Built with love and code</li>
+        <li>Sleek navigation across Home, About, and Post sections</li>
+        <li>Designed to deliver a smooth, reader-friendly experience</li>
+      </ul>
+    </main>
+  );
+};
+
+export default About;

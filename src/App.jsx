@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="KJ Blog" />
+      <Header title="KhushiVerse🖋️" />
           <Nav />
           <Routes>
             <Route path="/" element={<Home isLoading = {isLoading}

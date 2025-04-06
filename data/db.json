@@ -3,20 +3,8 @@
     {
       "id": "1",
       "title": "My First Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-    },
-    {
-      "id": "411",
-      "title": "5th post",
-      "datetime": "September 26, 2024 2:55:30 PM",
-      "body": "Hello World universe\n"
-    },
-    {
-      "id": "4111",
-      "title": " Recent Post",
-      "datetime": "September 26, 2024 7:11:57 PM",
-      "body": "checking Redux !"
+      "datetime": "April 06, 2025 10:19:05 AM",
+      "body": "Editing works good."
     },
     {
       "id": "411111",
@@ -29,6 +17,18 @@
       "title": "State Management in React",
       "datetime": "September 26, 2024 7:39:35 PM",
       "body": "Context API or Redux.."
+    },
+    {
+      "id": "41111111",
+      "title": "Khushi",
+      "datetime": "September 26, 2024 8:11:40 PM",
+      "body": "@Khushi's Blog"
+    },
+    {
+      "id": "4111111111",
+      "title": "Json Server Cmd",
+      "datetime": "April 06, 2025 10:04:41 AM",
+      "body": "npx json-server -p 3500 -w data/db.json"
     }
   ]
 }
