@@ -5,7 +5,7 @@ const About = () => {
     <main className="About about-container">
       <h2 className="about-heading">Khushi Jain</h2>
       <img 
-        src="/react-blog/kj2.jpeg"
+        src=src={`${import.meta.env.BASE_URL}kj2.jpeg`}
         alt="Khushi Jain"
         className="about-image"
       />
