@@ -5,7 +5,7 @@ const About = () => {
     <main className="About about-container">
       <h2 className="about-heading">Khushi Jain</h2>
       <img 
-        src="kj2.jpeg"
+        src="../kj2.jpeg"
         alt="Khushi Jain"
         className="about-image"
       />
